@@ -80,26 +80,26 @@ svg {
   border-radius: 4px;
 }
 .sale-ends-box h1 {
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 8px;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 .sale-ends-box p {
-    font-size: 16px;
-    margin: 0;
+  font-size: 16px;
+  margin: 0;
 }
 .sale-ends-box .login-button {
-    font-size: 16px;
-    font-weight: 700px;
-    margin-top: 16px;
-    width: 75px;
-    height: 48px;
-    padding-right: 12px;
-    padding-left: 12px;
+  font-size: 16px;
+  font-weight: 700px;
+  margin-top: 16px;
+  width: 75px;
+  height: 48px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 footer {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .top-companies {
   display: flex;
@@ -138,5 +138,75 @@ footer {
   color: white;
   font-size: 18px;
   margin-left: 50px;
-  margin-top: 40px; 
+  margin-top: 40px;
+}
+.top-skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  max-width: 1200px;
+  width: 100%;
+  color: white;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.gridp-box {
+  padding: 0px;
+}
+
+.gridp-box h3 {
+  margin-bottom: 15px;
+  font-family: "Udemy Sans", sans-serif;
+  font-size: 16px;
+}
+
+.gridp-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gridp-box ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.gridp-box ul li:hover {
+  text-decoration: underline;
+}
+.about-discover {
+  display: flex;
+  flex-direction: column;
+  width: 1272px;
+  background-color: #202230;
+}
+.about-discover-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1200px;
+  width: 100%;
+  color: white;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.real-footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 1272px;
+    gap: 300px;
+    font-size: 14px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 0.5px solid white;
+    background-color: #202230;
+}
+.udemy-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
