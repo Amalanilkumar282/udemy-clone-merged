@@ -434,3 +434,128 @@ footer {
   margin-left: 50px;
   margin-top: 40px; 
 }
+.companies-logos {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    gap: 20px;
+    height: 130px;
+    gap: 80px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.companies-header-text {
+    color: #595C73
+}
+
+.companies-header {
+    display: grid;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('https://frontends.udemycdn.com/design-system/fonts/SuisseWorks-Bold-v1.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Udemy Sans';
+    src: url('https://frontends.udemycdn.com/design-system/fonts/Udemy-Sans-Regular-v1.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Example usage */
+h1,
+h2,
+h3 {
+    font-family: 'Suisse Works', serif;
+}
+
+body {
+    font-family: 'Udemy Sans', sans-serif;
+}
+.companies-header-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+.companies{
+    display: grid;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+
+}
+.course-card {
+  width: 200px;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding: 10px;
+}
+
+.course-img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.course-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  color: #2d2f31;
+}
+
+.instructor {
+  font-size: 13px;
+  color: #6a6f73;
+  margin-bottom: 8px;
+}
+
+.rating {
+  font-size: 14px;
+  color: #b4690e;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.stars {
+  color: #f69c08;
+  font-size: 14px;
+}
+
+.rating-count {
+  color: #6a6f73;
+  font-size: 13px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2d2f31;
+}
+
+.original-price {
+  font-size: 14px;
+  color: #6a6f73;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+.course-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+}
