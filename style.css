@@ -1,3 +1,109 @@
+/* Trending review layout fix */
+.trending-review {
+  display: flex;
+  flex-direction: row;
+  background-color: #F6F7F9;
+  gap: 32px;
+}
+.trending-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.trending-pic {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trending-stat-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* Trending Section Styles (integrated and renamed from trending.css) */
+@font-face {
+  font-family: 'Suisse Works';
+  src: url('https://frontends.udemycdn.com/design-system/fonts/SuisseWorks-Bold-v1.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Udemy Sans';
+  src: url('https://frontends.udemycdn.com/design-system/fonts/Udemy-Sans-Regular-v1.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.trending-main {
+  background-color: #F6F7F9;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+}
+.trending-flex {
+  display: flex;
+}
+.trending-flex-column {
+  flex-direction: column;
+}
+.trending-top {
+  color: #2A2B3F;
+  padding: 20px;
+}
+.trending-top-topic {
+  margin:0px;
+}
+.trending-line {
+  border: none;
+  margin: 0 auto;
+  width: 96%;
+  height: 1px;
+  background-color: #D1D2E0;
+}
+.trending {
+  padding: 25px;
+  width: 100%;
+  display: flex;
+}
+.trending-item1 {
+  width: 24%;
+}
+.trending-item2 {
+  width: 15%;
+  padding: 10px;
+  margin: 0px;
+}
+.trending-item3 {
+  width: 21%;
+  padding: 10px;
+  margin: 0px;
+}
+.trending-item4 {
+  width: 40%;
+  padding: 10px;
+  margin: 0px;
+}
+.trending-left {
+  padding: 20px;
+  margin: 0px;
+  flex: 1;
+}
+.trending-pic {
+  padding: 20px;
+  margin: 0px;
+  flex: 1;
+}
+.trending-per1-item,
+.trending-per2-item {
+  margin-right: 20px;
+  flex:1;
+}
+.trending-review {
+  background-color: #F6F7F9;
+}
 /* Subscription Section Styles (from substyle.css, class names prefixed with 'subscription-') */
 .subscription-pricing-section {
   background-color: #ffffff;
