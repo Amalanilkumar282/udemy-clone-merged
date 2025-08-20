@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Suisse Works';
+  src: url('https://frontends.udemycdn.com/design-system/fonts/SuisseWorks-Bold-v1.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+ 
+@font-face {
+  font-family: 'Udemy Sans';
+  src: url('https://frontends.udemycdn.com/design-system/fonts/Udemy-Sans-Regular-v1.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+/* Example usage */
+h1, h2, h3 {
+  font-family: 'Suisse Works', serif;
+}
+ 
+body {
+  font-family: 'Udemy Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+h1{
+    color: #2A2B3F;
+}
+h3{
+    color:#6941CB;
+}
+h4{
+    color: #9194AC;
+}
+.main{
+    background-color: #F6F7F9;
+    height: 100%;
+    width: 100%;
+    /* color: var(--ud-btn-focus-color); */
+    gap: 10px;
+
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+
+.top{
+    color: #2A2B3F;
+    padding: 20px;
+}
+.top-topic{
+    margin:0px
+}
+.line{
+     
+    border: none;
+    /* border-top: 1.5px solid #D1D2E0; */
+    margin: 0 auto;
+    width: 96%;
+    height: 1px;
+    background-color: #D1D2E0;
+    
+
+}
+.trending{
+    /* gap: 15px; */
+    padding: 25px;
+    width: 100%;
+}
+.trending-item1{
+    width: 24%;
+    
+    
+
+}
+.trending-item2{
+    width: 15%;
+    padding: 10px;
+    margin: 0px;
+
+}
+.trending-item3{
+    width: 21%;
+    padding: 10px;
+    margin: 0px;
+
+}
+.trending-item4{
+    width: 40%;
+    padding: 10px;
+    margin: 0px;
+}
+
+.left{
+
+    /* padding: 0px; */
+    padding: 20px;
+    margin: 0px;
+    flex: 1;
+}
+
+.pic{
+    
+    padding: 20px;
+    margin: 0px;
+    flex: 1;
+}
+
+.per1-item,
+.per2-item {
+    margin-right: 20px;
+    flex:1
+}
